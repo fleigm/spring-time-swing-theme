@@ -1,0 +1,22 @@
+
+body {
+  background-image: url("../images/background_image.png");
+@apply bg-center bg-cover bg-fixed;
+}
+
+.wp-element-button {
+@apply bg-orange-500 hover:bg-orange-400 no-underline text-primary-inverse shadow-md;
+}
+
+.wp-block-group {
+  //@apply bg-white bg-opacity-50 shadow-md;
+  &.is-vertical {
+  @apply gap-16;
+  }
+}
+.wp-block-media-text {
+@apply bg-orange-500 bg-opacity-5 shadow-md;
+  .wp-block-media-text__media {
+
+  }
+}
