@@ -47,6 +47,19 @@ function tailpress_enqueue_scripts() {
 
 add_action( 'wp_enqueue_scripts', 'tailpress_enqueue_scripts' );
 
+//function prefix_remove_core_block_styles() {
+//    global $wp_styles;
+//
+//    foreach ( $wp_styles->queue as $key => $handle ) {
+//        if ( strpos( $handle, 'wp-block-' ) === 0 ) {
+//            wp_dequeue_style( $handle );
+//        }
+//    }
+//}
+//add_action( 'wp_enqueue_scripts', 'prefix_remove_core_block_styles' );
+
+
+
 /**
  * Get asset path.
  *

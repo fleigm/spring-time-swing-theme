@@ -1,3 +1,4 @@
+@import "../fonts/inter/font.less";
 
 body {
   background-image: url("../images/background_image.png");
@@ -9,14 +10,28 @@ body {
 }
 
 .wp-block-group {
-  //@apply bg-white bg-opacity-50 shadow-md;
+@apply mb-8;
+
   &.is-vertical {
-  @apply gap-16;
+  @apply gap-8;
   }
 }
+
 .wp-block-media-text {
-@apply bg-orange-500 bg-opacity-5 shadow-md;
+@apply bg-white bg-opacity-60 shadow-md;
+
   .wp-block-media-text__media {
 
+  }
+}
+
+.wp-block-gallery {
+
+}
+
+
+.main-menu {
+  .menu-item > a {
+    @apply py-1 block text-lg font-light;
   }
 }
