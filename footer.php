@@ -10,7 +10,7 @@
     <div class="container mx-auto flex items-end justify-between py-12">
 
         <div class="flex flex-col">
-            <span class="text-sm text-gray-500" >0162 351 9046</span>
+            <span class="text-sm text-gray-500" >+49 162 351 9046</span>
             <a  class="text-sm text-gray-500" href="mailto:info@springtimeswing.com">info@springtimeswing.com</a>
             <?php
             wp_nav_menu(
