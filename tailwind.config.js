@@ -42,6 +42,8 @@ module.exports = {
 
                 'primary-inverse': '#f1f5f8',
                 'secondary-inverse': '#dae1e7',
+                'theme-primary': '#d15f67',
+                'theme-secondary': '#e38b93'
             },
             fontSize: tailpress.fontSizeMapper(tailpress.theme('settings.typography.fontSizes', theme)),
             typography: {

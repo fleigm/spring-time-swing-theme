@@ -8,8 +8,22 @@
 <footer id="colophon" class="site-footer" role="contentinfo">
 	<?php do_action( 'tailpress_footer' ); ?>
 
-	<div class="container mx-auto text-center text-gray-500 py-12">
-		&copy; <?php echo date_i18n( 'Y' );?> - <?php echo get_bloginfo( 'name' );?>
+	<div class="container mx-auto flex align-center justify-between py-12">
+        <?php
+        wp_nav_menu(
+            array(
+                'menu'    => 'footer-menu',
+                'container_class' => '',
+                'menu_class'      => 'flex',
+                'theme_location'  => '',
+                'li_class'        => 'p-2 text-gray-500',
+                'fallback_cb'     => false,
+            )
+        );
+        ?>
+        <div class="text-gray-500 flex items-center">
+            &copy; <?php echo date_i18n( 'Y' );?> - <?php echo get_bloginfo( 'name' );?>
+        </div>
 	</div>
 </footer>
 
