@@ -34,7 +34,7 @@ if (mix.inProduction()) {
 mix.disableNotifications();
 
 mix.browserSync({
-    proxy: "localhost:8080",
+    proxy: "localhost:8081",
     files: [
         `./**/*.php`,
         `./**/*.js`,

@@ -20,7 +20,7 @@ services:
       - db
     restart: always
     ports:
-      - 8080:80
+      - 8081:80
 
   db:
     image: mariadb:latest
